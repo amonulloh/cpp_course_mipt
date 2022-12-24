@@ -207,7 +207,7 @@ TEST(FrontBack, NonConst) {
 TEST(Data, NonConst) {
   String s = "abob";
   auto p = s.Data();
-  bool are_same = std::is_same_v<decltype(s.Data()), const char*>;
+  bool are_same = std::is_same_v<decltype(s.Data()), char*>;
   EXPECT_TRUE(are_same);
 }
 
