@@ -1,1 +1,1 @@
-# cpp_course_mipt
+# cpp_course 3 sem [mipt, 2022]
